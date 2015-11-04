@@ -1,0 +1,115 @@
+/* 头部菜单 */
+body {
+	min-height: 600px;
+}
+.nav {
+	margin: 19px 0 5px;
+	height: 24px;
+	line-height: 24px;
+}
+.navbar ul {
+	float: right;
+}
+.navbar ul li {
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+}
+.navbar ul li a {
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+}
+.navbar ul li a:hover {
+	color: #00c;
+}
+/*更多产品*/
+.navbar ul li a.blue {
+	display: inline-block;
+	padding: 3px 5px;
+	color: #fff;
+	font-weight: normal;
+	background-color: #38f;
+	text-decoration: none;
+}
+
+/*search*/
+.search {
+	text-align: center;
+	margin-top: 100px;
+}
+.search div {
+	box-sizing: border-box;
+}
+.search-box {
+	margin: 0 auto;
+	width: 600px;
+}
+.search-input {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	height: 34px;
+	width: 500px;
+	float: left;
+}
+.search-input input {
+	border: 0;
+	width: 500px;
+	height: 30px;
+	padding-left: 5px;
+}
+.search-btn {
+	height: 34px;
+	background-color: #38f;
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	float: left;
+	line-height: 34px;
+}
+
+.foot {
+	position: absolute;
+	bottom: 0;
+	
+	width: 100%;
+	
+	margin-bottom: 50px;
+	text-align: center;
+}
+.foot-content {
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+.foot-content p {
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 30px;
+}
+.foot-content p a {
+	padding: 0 5px;
+}
+.copy {
+	font: 12px arial;
+	color: #666;
+}
+.copy a {
+	padding: 0;
+	color: #666;
+}
+.copy a:hover {
+	color: #666;
+}
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after { clear: both; }
