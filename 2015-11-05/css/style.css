@@ -1,0 +1,99 @@
+/* 头部菜单 */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.headpic {
+	height: 635px;
+	min-width: 1200px;
+	background: url(http://offer-assets.b0.upaiyun.com/assets/index/banner-4d0efbf7faf19060c357a02b30ed99bd.jpg) no-repeat;
+	background-size: 100% auto;
+}
+
+/* background-size 拥有3个常用的值 100% auto, cover, contain */
+
+.logo {
+	float: left;
+  width: 170px;
+  height: 34px;
+  margin-top: 32px;
+  margin-left: 48px;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+.nav-option {
+	float: right;
+	margin-top: 35px;
+	margin-right: 48px;
+}
+.nav-option ul {
+	margin: 0;
+}
+.nav-option ul li {
+	display: inline;
+	list-style: none;
+	margin: 0 20px;
+	padding-bottom: 5px;
+}
+.nav-option ul li:hover {
+	border-bottom: 2px solid #ddd;
+}
+.nav-option ul li a {
+	color: #fff;
+	font-size: 17px;
+	text-decoration: none;
+}
+.nav-option ul li a:hover {
+	color: #ddd;
+}
+
+.banner-text {
+	margin: 0 auto;
+	width: 728px;
+	padding-top: 180px;
+}
+.banner-text .content {
+	padding-bottom: 50px;
+	color: #fff;
+	text-align: center;
+
+}
+.banner-text .content h1 {
+	font-size: 38px;
+	font-weight: normal;
+}
+.banner-text .content h2 {
+	font-size: 18px;
+	font-weight: normal;
+	color: #ddd;
+}
+.banner-text .content input {
+	background-color: #25C8EA;
+  border: 1px solid #25C8EA;
+  padding: 10px 40px;
+  color: #fff;
+  border-radius: 3px;
+}
+.step {
+	
+}
+.step .sub-step {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	background-color: #ddd;
+	height: 200px;
+}
+.step .sub-step:not(:last-child) {
+	border-right: 5px solid #fff;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after { clear: both; }
